@@ -48,6 +48,7 @@ applications which will use %{name}.
 
 %install
 %makeinstall_std
+find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 
 %files -n %{libname}
 %{_libdir}/lib%{name}.so.%{major}*  
