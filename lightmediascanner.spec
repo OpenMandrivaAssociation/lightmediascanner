@@ -60,3 +60,19 @@ find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 %{_libdir}/pkgconfig/%{name}.pc
 
 
+
+
+%changelog
+* Wed Jan 11 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.4.1.0-1
++ Revision: 760024
+- remove all .la file
+- imported package lightmediascanner
+
+
+* Fri Dec 17 2010 mdawkins <mattydaw@gmail.com> 0.4.1.0-1-unity2011
+- import for Unity
+- new version 0.4.1.0
+- mdv'fied lib
+
+* Fri Aug 21 2009 Texstar <texstar@gmail.com> 0.3.0-1pclos2009
+- create
