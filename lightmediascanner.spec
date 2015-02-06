@@ -5,7 +5,7 @@
 Summary: 	Lightweight media scanner
 Name: 		lightmediascanner
 Version: 	0.4.1.0
-Release: 	1
+Release: 	2
 Group: 		System/Libraries
 License: 	LGPL
 URL: 		http://lms.garage.maemo.org/
