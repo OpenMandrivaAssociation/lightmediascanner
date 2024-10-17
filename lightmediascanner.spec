@@ -8,7 +8,7 @@ Version: 	0.4.1.0
 Release: 	2
 Group: 		System/Libraries
 License: 	LGPL
-URL: 		http://lms.garage.maemo.org/
+URL: 		https://lms.garage.maemo.org/
 Source0: 	%{name}-%{version}.tar.xz
 
 
