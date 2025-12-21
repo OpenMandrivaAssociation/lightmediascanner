@@ -12,6 +12,11 @@ URL: 		https://lms.garage.maemo.org/
 Source0: 	%{name}-%{version}.tar.xz
 
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Lightweight media scanner meant to be used in not-so-powerful
 devices, like embedded systems or old machines. Provides an optimized
